@@ -1,0 +1,5 @@
+JSX: Es una manera de escribir javascript con otra sintaxis 
+
+App()=== <App/> | <App> </App>
+
+componente: son funciones que muestran algo en pantalla entonces llevan return

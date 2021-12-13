@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+}
+//Utilidades
+.flex{
+ flex: 1;
+}
+.centrarTexto{
+   
+  text-align: center;
+  
+ 
+}
+.spacer{
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.margenInf{
+  margin-bottom: 15%;
+}
+.titulo{
+  width: 100%;
+
+}
+h1{
+  margin: 100px;
+  font-size:100px;
+   
+}
+
+header{
+  display:flex;
+  background: linear-gradient(to right, #202020, #aca9ac);
+  position: sticky;
+  top: 0;
+  height: 60px;
+  width: 100%;
+  z-index:20;
+                
+                    #nav ul ul{
+                        position:absolute;
+                        display: none;
+                        
+                      } 
+                     
+                      #nav ul ul li{
+                        display:block;
+                        background: linear-gradient(to right, #202020, #aca9ac);
+                        width:120px;
+                        
+                      }
+                     
+                      #nav ul li:hover > ul{
+                        display:block;
+                        width:20px;
+                        
+
+                        
+                       
+                      }
+                      #nav li{
+                        float:left;
+                        
+                        
+                      }
+                      a{
+                        text-decoration:none;
+                        color: white;
+                        font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                        font-size: 18px;
+                        
+                    }
+                              
+                
+                .centrarLista{
+                    padding-top: 1rem;
+                            .lHorizontal li{
+                                display:inline;
+                                padding-left: 8px;
+                                padding-right: 8px;
+                            }
+                }
+                .redSocial__icono{
+                  margin-left: 5px;
+                  width:20px;
+                  height: 20px;
+                }
+
+                .redSocial__icono{
+                  margin-left: 5px;
+                  width:15px;
+                  height: 15px;
+                }
+                
+}
+
+
+
+.Seccion{
+  display:flex;
+  justify-content:space-around;
+  gap:20px;
+  padding: 0 20px;
+  flex-wrap:wrap; 
+  
+      .bordes__Secciones{
+      
+        border:2px solid  rgb(41,40,40);
+        margin-bottom: 2rem;
+        text-align: center;
+        height:500px;
+        max-width: 278px;
+              .bordes__Secciones--bordesCard {
+              
+                border-bottom: rgb(2, 2, 2);
+                border-style: solid;
+                border-width: 0.5px;
+                
+              }
+              .bordes_Secciones--imagenes{
+                width:276px;
+                height: 300px;
+                object-fit: cover;
+            }
+              
+  }
+  .Subtitulo__Seccion{
+    h5{ font-size:30px;
+      color:rgb(65, 62, 62)
+    }      
+    }
+}
+
+
+
+
+
+
+  .subtitulo__paletas{
+    h3{ 
+      font-size:60px;
+      color:#198754; 
+    }
+    
+  }
+  .subtitulo__pelotas{
+    h3
+    {
+      font-size:60px;
+      color:#FFC107; 
+    }
+  }
+  .subtitulo__accesorios{
+    h3{ 
+      font-size:60px;
+      color:#11CAF0; 
+    }
+  }
+
+
+
+
+
+
+
+.footer{
+    background: linear-gradient(to right, #202020, #aca9ac);
+    margin-top: 5%;
+    height:10%;
+    color:white;
+    text-align:center;
+    margin-bottom: 0;
+    padding-bottom:15px;
+    justify-items: center;
+    padding-top: 1%;
+    a{
+      color: rgb(255, 255, 255);
+    }
+
+    
+}
+
+.footerForm{
+  background: linear-gradient(to right, #202020, #aca9ac);
+  margin-top: 5%;
+  height:10%;
+  color:white;
+  text-align:center;
+  margin-top:5%;
+  margin-bottom: 0px;
+  padding-bottom:65px;
+  justify-items: center;
+  padding-top: 1%;
+  a{
+    color: rgb(255, 255, 255);
+  } 
+}
+
+@media screen and (max-width:750px){
+  header{
+
+      height:5%;     
+  }
+  h1{
+    font-size:60px;
+  }
+}
