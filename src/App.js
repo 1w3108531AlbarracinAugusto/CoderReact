@@ -1,11 +1,13 @@
+import Header from "./header/header";
+import Main from "./Main.js";
 
-import Header from "./header/header"
-
-function App(){
-  return(
-  <>
-    <Header/>
-  
-  </>)
+function App() {
+    const titulo = "Bienvenido";
+    return (
+        <>
+            <Header />
+            <Main titulo={titulo} />
+        </>
+    );
 }
-export default App
+export default App;
